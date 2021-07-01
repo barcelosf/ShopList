@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <title>ShopList</title>
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="./icons/logo.png" alt="logo" width="70px" height="70px">
+            <figcaption>ShopList</figcaption>
+        </figure>
+        <nav>
+            <div class="geral">
+                <a href="#sobre" id = "sobre">Sobre</a>
+                <a href="#serviços">Conheça nossos serviços</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="container">
+            <legend>Informe os dados da lista:</legend>
+            <div id="identidade">
+                <div class="field">
+                    <label for="title">Informe o Título da Lista:</label>
+                    <input type="text" name="title" placeholder="Digite o título da lista" id="title" required>
+                </div>
+                <div class="field">
+                    <label for="author">Informe o Autor da Lista:</label>
+                    <input type="text" name="author" placeholder="Digite o autor da lista" id="author" required>
+                </div>
+            </div>
+            <div id="lista">
+                <legend>Informe os itens da lista:</legend>
+                    <button id="adicionar" onclick="adicionaCampo()">Add</button>
+                    <button id="calcularPreco" onclick="calculaPreco()">Valor</button>
+                    <button id="pdf" onclick="gerarPdf()">PDF</button>
+                    <span></span>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+    <!-- CDNs para criar o pdf -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.66/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.66/vfs_fonts.js"></script>
+</body>
+
+</html>

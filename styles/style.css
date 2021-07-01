@@ -1,0 +1,89 @@
+body{
+    background-color: tan;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkcyan;
+    align-items: center;
+}
+header figure{
+    display: flex;
+    align-items: center;
+}
+header figure figcaption{
+    margin-left: 5px;
+    font-size: 25px;
+    color: snow;
+}
+header nav .geral a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: snow;
+}
+header nav .geral a:hover{
+    color: darkblue;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+main div#container{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    padding: 50px;
+    border-radius: 10px;
+    color: seashell;
+}
+main div#container legend, main div#container div#lista legend{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+main div#container div#identidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main div#container div#lista span{
+    color: brown;
+    font-size: 20px;
+}
+main div#container div#identidade div.field{
+    margin-bottom: 7px;
+}
+main div#container div#identidade div.field label{
+   display: block;
+   margin-bottom: 2px;
+}
+main div#container div#identidade div.field input{
+    border-radius: 5px;
+}
+main div#container div#lista div.field-lista{
+    margin-bottom: 7px;
+}
+main div#container div#lista div.field-lista input{
+    border-radius: 5px;
+    margin-right: 7px;
+}
+main div#container div#lista div.field-lista input[type = number]{
+    width: 55px;
+}
+main div#container div#lista div.field-lista input[type = text]{
+    width: 100px;
+}
+main div#container div#lista div.field-lista button{
+    border-radius: 3px;
+    font-size: medium;
+    width: 30px;
+}
+main div#container div#lista button{
+    width: 50px;
+    border-radius: 5px;
+    left: 0px;
+}
