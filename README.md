@@ -7,15 +7,15 @@
 - [x] Adding and deleting items
     - The user has the possibility of adding how many fields he wants and deleting the ones that are no longer necessary
 - [x] Calculating the value of the list
-      - The user can obtain the value of the list by clicking a button
+     - The user can obtain the value of the list by clicking a button
 - [x] Generating PDF
-      - I used a cnd called PDFMake  to create the list's PDF. Link to the official documentation:  http://pdfmake.org/#/
+     - I used a cdn called PDFMake  to create the list's PDF. Link to the official documentation:  <a href="http://pdfmake.org/#/">🔗 PDFMake</a>
 
 
 Technologies
 =================
 <!--ts-->
-   * [HTML]
-   * [CSS]
-   * [Javascript]
+   * HTML
+   * CSS
+   * Javascript
 <!--te-->
