@@ -1,9 +1,21 @@
-# ShopList
-A responsive ShopList creating application made purely with: HTML,CSS,JS using a package called PDFMake to convert the list in a PDF file.
-# Functions:
-Calculate Value: A function that calculates the total value of the list inserted by the user, based in the quantity and prices per item given in the interface<br/> 
-Add Item: The user can insert how many items he wants<br/> 
-Delete Item: The user can delete the fields he/she no longer needs<br/> 
-Generate PDF: The user can generate the pdf containing the items and their values with the total value<br/> 
+<h1 align="center">ShopList</h1>
 
-To generate the pdf I used a CDN called PDFMake
+<p align="center">ShopList is a responsive front-end application that helps the user to organize its lists when shopping or planning to shop</p>
+
+### Features
+
+- [x] Adding and deleting items
+    - The user has the possibility of adding how many fields he wants and deleting the ones that are no longer necessary
+- [x] Calculating the value of the list
+      - The user can obtain the value of the list by clicking a button
+- [x] Generating PDF
+      - I used a cnd called PDFMake  to create the list's PDF. Link to the official documentation:  http://pdfmake.org/#/
+
+
+Technologies
+=================
+<!--ts-->
+   * [HTML]
+   * [CSS]
+   * [Javascript]
+<!--te-->
